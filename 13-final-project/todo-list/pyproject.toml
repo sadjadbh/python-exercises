@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "todo-list-cli"
+version = "1.0.0"
+description = "A command-line To-Do List application written in Python."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Sadjad Bahari", email = "sajad_bahari@rocketmail.com" },
+]
+keywords = ["todo", "cli", "task manager", "python"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
