@@ -25,6 +25,7 @@ This repository contains a structured collection of Python exercises inspired by
 
 Each topic is organized in a dedicated folder. Inside, exercises are separated into individual files for clarity.
 
+````
 python-exercises/
 ├── 01-data-structures/
 │ ├── ex01_string.py
@@ -63,6 +64,7 @@ python-exercises/
 └── .gitignore
 
 Each exercise file is self-contained and executable, and includes a description of the task.
+````
 
 ## 🛠️ Requirements
 
